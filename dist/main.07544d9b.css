@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --bg-color: hsl(0, 0%, 23%);
+  --prim-color: hsl(0, 0%, 85%);
+  --second-color: hsl(0, 0%, 61%);
+  --accent-color: hsl(167, 51%, 48%);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--prim-color);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#hero {
+  display: grid;
+  place-items: center;
+  min-height: calc(100vh - 6rem);
+  background-color: rgba(0, 0, 0, 0);
+}
+#hero h1 {
+  text-align: center;
+  font-size: clamp(3rem, 10vw, 9rem);
+  font-weight: 800;
+  color: var(--accent-color);
+  line-height: 1;
+}
+#hero h1 span {
+  color: var(--prim-color);
+  font-size: clamp(1rem, 3vw, 2.5rem);
+  font-weight: 300;
+  display: block;
+}
+#hero img {
+  display: block;
+  border-radius: 50%;
+  width: max(12rem, 25vw);
+  margin: 5rem auto;
+  filter: grayscale(100%);
+  transition: all 500ms;
+}
+#hero img:hover {
+  filter: grayscale(15%);
+}
+
+.body {
+  position: relative;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: var(--prim-color);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-inline: 3vw;
+}
+.nav__links {
+  text-decoration: none;
+  color: var(--bg-color);
+  padding: 2rem;
+  text-align: center;
+  flex-grow: 1;
+  align-self: center;
+  transition: 250ms;
+}
+.nav__links:hover {
+  background-color: var(--accent-color);
+  color: var(--prim-color);
+}
+
+/*# sourceMappingURL=/main.07544d9b.css.map */

@@ -1,0 +1,24 @@
+{
+  "name": "raahee-site",
+  "version": "1.0.0",
+  "description": "Official website of raahee",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antispoonfanatic/raahee-site.git"
+  },
+  "author": "Allan Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antispoonfanatic/raahee-site/issues"
+  },
+  "homepage": "https://github.com/antispoonfanatic/raahee-site#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.52.2"
+  }
+}

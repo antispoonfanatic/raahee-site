@@ -1,0 +1,12 @@
+:root {
+    --bg-color: hsl(0, 0%, 23%);
+    --prim-color: hsl(0, 0%, 85%);
+    --second-color: hsl(0, 0%, 61%);    
+    --accent-color: hsl(167, 51%, 48%);
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--prim-color);
+}
